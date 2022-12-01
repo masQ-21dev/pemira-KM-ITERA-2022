@@ -567,8 +567,40 @@ video {
   z-index: 10;
 }
 
+.z-40 {
+  z-index: 40;
+}
+
+.z-20 {
+  z-index: 20;
+}
+
+.z-0 {
+  z-index: 0;
+}
+
+.z-\[9\] {
+  z-index: 9;
+}
+
+.z-\[\] {
+  z-index: ;
+}
+
+.z-\[8\] {
+  z-index: 8;
+}
+
+.z-\[11\] {
+  z-index: 11;
+}
+
 .m-0 {
   margin: 0px;
+}
+
+.-m-8 {
+  margin: -2rem;
 }
 
 .mx-12 {
@@ -593,12 +625,12 @@ video {
   margin-right: 1rem;
 }
 
-.mt-1 {
-  margin-top: 0.25rem;
-}
-
 .ml-auto {
   margin-left: auto;
+}
+
+.-mt-24 {
+  margin-top: -6rem;
 }
 
 .mt-56 {
@@ -621,6 +653,10 @@ video {
   margin-top: 1rem;
 }
 
+.mt-72 {
+  margin-top: 18rem;
+}
+
 .mb-8 {
   margin-bottom: 2rem;
 }
@@ -629,12 +665,52 @@ video {
   margin-bottom: 1rem;
 }
 
-.mt-24 {
-  margin-top: 6rem;
+.-mt-96 {
+  margin-top: -24rem;
 }
 
-.block {
-  display: block;
+.-mt-80 {
+  margin-top: -20rem;
+}
+
+.-mt-72 {
+  margin-top: -18rem;
+}
+
+.-mt-64 {
+  margin-top: -16rem;
+}
+
+.-mt-60 {
+  margin-top: -15rem;
+}
+
+.-mt-56 {
+  margin-top: -14rem;
+}
+
+.-mt-52 {
+  margin-top: -13rem;
+}
+
+.-mt-48 {
+  margin-top: -12rem;
+}
+
+.-mt-44 {
+  margin-top: -11rem;
+}
+
+.-mt-40 {
+  margin-top: -10rem;
+}
+
+.-mt-8 {
+  margin-top: -2rem;
+}
+
+.-mt-10 {
+  margin-top: -2.5rem;
 }
 
 .inline-block {
@@ -645,28 +721,12 @@ video {
   display: flex;
 }
 
-.h-px {
-  height: 1px;
-}
-
 .h-auto {
   height: auto;
 }
 
 .w-full {
   width: 100%;
-}
-
-.w-6 {
-  width: 1.5rem;
-}
-
-.w-\[599px\] {
-  width: 599px;
-}
-
-.w-\[1195px\] {
-  width: 1195px;
 }
 
 .w-\[1800px\] {
@@ -687,10 +747,6 @@ video {
 
 .flex-grow {
   flex-grow: 1;
-}
-
-.cursor-pointer {
-  cursor: pointer;
 }
 
 .list-none {
@@ -727,47 +783,21 @@ video {
   white-space: nowrap;
 }
 
-.rounded {
-  border-radius: 0.25rem;
-}
-
-.rounded-sm {
-  border-radius: 0.125rem;
-}
-
 .rounded-2xl {
   border-radius: 1rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
 }
 
 .border {
   border-width: 1px;
 }
 
-.border-solid {
-  border-style: solid;
-}
-
-.border-transparent {
-  border-color: transparent;
-}
-
-.bg-transparent {
-  background-color: transparent;
-}
-
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
 .bg-\[\#899443\] {
   --tw-bg-opacity: 1;
   background-color: rgb(137 148 67 / var(--tw-bg-opacity));
-}
-
-.bg-yellow-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 249 195 / var(--tw-bg-opacity));
 }
 
 .bg-cover {
@@ -795,14 +825,6 @@ video {
   padding: 12rem;
 }
 
-.p-9 {
-  padding: 2.25rem;
-}
-
-.p-96 {
-  padding: 24rem;
-}
-
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -816,11 +838,6 @@ video {
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
-}
-
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
 }
 
 .py-2 {
@@ -843,6 +860,11 @@ video {
   padding-right: 8rem;
 }
 
+.px-48 {
+  padding-left: 12rem;
+  padding-right: 12rem;
+}
+
 .pt-16 {
   padding-top: 4rem;
 }
@@ -855,26 +877,22 @@ video {
   padding-bottom: 0px;
 }
 
-.pt-0 {
-  padding-top: 0px;
-}
-
-.pt-10 {
-  padding-top: 2.5rem;
+.pb-4 {
+  padding-bottom: 1rem;
 }
 
 .text-center {
   text-align: center;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .text-2xl {
@@ -896,10 +914,6 @@ video {
 
 .leading-relaxed {
   line-height: 1.625;
-}
-
-.leading-none {
-  line-height: 1;
 }
 
 .leading-snug {
@@ -924,11 +938,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.outline-none {
-  outline: 2px solid transparent;
-  outline-offset: 2px;
 }
 
 @font-face {
@@ -962,11 +971,6 @@ body {
   opacity: 0.75;
 }
 
-.focus\:outline-none:focus {
-  outline: 2px solid transparent;
-  outline-offset: 2px;
-}
-
 @media (min-width: 640px) {
   .sm\:mt-20 {
     margin-top: 5rem;
@@ -988,24 +992,12 @@ body {
     margin-top: 20rem;
   }
 
-  .lg\:-mt-64 {
-    margin-top: -16rem;
-  }
-
-  .lg\:-mt-72 {
-    margin-top: -18rem;
-  }
-
   .lg\:block {
     display: block;
   }
 
   .lg\:flex {
     display: flex;
-  }
-
-  .lg\:hidden {
-    display: none;
   }
 
   .lg\:w-auto {
