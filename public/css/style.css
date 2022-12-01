@@ -705,6 +705,14 @@ video {
   margin-top: 90rem;
 }
 
+.mt-\[9rem\] {
+  margin-top: 9rem;
+}
+
+.mt-\[92rem\] {
+  margin-top: 92rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -872,6 +880,26 @@ video {
 
 .pb-4 {
   padding-bottom: 1rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
+}
+
+.pt-24 {
+  padding-top: 6rem;
+}
+
+.pt-48 {
+  padding-top: 12rem;
+}
+
+.pt-44 {
+  padding-top: 11rem;
+}
+
+.pt-40 {
+  padding-top: 10rem;
 }
 
 .text-center {
