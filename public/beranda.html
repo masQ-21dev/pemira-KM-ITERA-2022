@@ -10,38 +10,44 @@
 </head>
 
 <body>
-  <nav class="z-[11] relative flex flex-wrap items-center justify-between px-2 mb-3 mx-12">
-    <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
-      <div class="w-full relative flex justify-between mt-0 top-0 lg:w-auto  px-4 lg:static lg:block lg:justify-start">
-        <a class="leading-relaxed inline-block mr-4 whitespace-nowrap" href="#">
-          <img src="./img/logo.svg" alt="">
-        </a>
+  <nav class="z-20 relative">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="flex justify-between">
+        <div class="flex space-x-4">
+          <div class="mr-4">
+            <a href="" class="flex items-center px-2">
+              <img class="h-20 mr-1" src="./img/logo.svg" alt="">
+            </a>
+          </div>
+        </div>
+
+        <div class="hidden md:flex flex items-center space-x-1">
+          <a href="./beranda.html"
+            class="py-4 px-3 rounded-tl-2xl rounded-br-2xl text-[#899443] hover:bg-[#899443] hover:text-white">Beranda</a>
+          <a href="./capresma.html"
+            class="py-4 px-3 rounded-tl-2xl rounded-br-2xl text-[#899443] hover:bg-[#899443] hover:text-white">Capresma</a>
+          <a href="#"
+            class="py-4 px-3 rounded-tl-2xl rounded-br-2xl text-[#899443] hover:bg-[#899443] hover:text-white">Timeline</a>
+          <a href="#"
+            class="py-4 px-3 rounded-tl-2xl rounded-br-2xl text-[#899443] hover:bg-[#899443] hover:text-white">Lokasi
+            Pemilihan</a>
+        </div>
+
+        <!-- mobile button -->
+        <div class="md:hidden flex items-center">
+          <button class="mobile-menu-button">
+            <i class="fa-solid fa-bars w-10 h-10"></i>
+          </button>
+        </div>
+
       </div>
-      <div class="lg:flex flex-grow items-center" id="example-navbar-warning">
-        <ul class="flex flex-col lg:flex-row list-none ml-auto navs">
-          <li class="nav-item">
-            <a class="px-3 py-2 flex items-center leading-snug text-[#899443] hover:opacity-75 active" id="item"
-              href="./beranda.html">
-              Beranda
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="px-3 py-2 flex items-center leading-snug text-[#899443] hover:opacity-75" id="item" href="./capresma.html">
-              Capresma
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="px-3 py-2 flex items-center leading-snug text-[#899443] hover:opacity-75" id="item" href="#">
-              Timeline
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="px-3 py-2 flex items-center leading-snug text-[#899443] hover:opacity-75" id="item" href="#">
-              Lokasi Pemilihan
-            </a>
-          </li>
-        </ul>
-      </div>
+    </div>
+    <!-- mobile menu -->
+    <div class="mobile-menu hidden md:hidden">
+      <a href="./beranda.html" class="block py-2 px-4 text-sm">Beranda</a>
+      <a href="" class="block py-2 px-4 text-sm">Capresma</a>
+      <a href="" class="block py-2 px-4 text-sm">Timeline</a>
+      <a href="" class="block py-2 px-4 text-sm">Lokasi Pemilihan</a>
     </div>
   </nav>
 
