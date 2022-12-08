@@ -15,18 +15,18 @@
 </head>
 
 <body>
-  <nav class="z-20 relative">
+  <nav class="z-20 relative bg-white lg:bg-transparent">
     <div class="max-w-7xl mx-auto px-4">
       <div class="flex justify-between">
         <div class="flex space-x-4">
           <div class="mr-4">
             <a href="" class="flex items-center px-2">
-              <img class="h-20 mr-1" src="./img/logo.svg" alt="">
+              <img class="h-16 lg:h-20 mr-1" src="./img/logo.svg" alt="">
             </a>
           </div>
         </div>
 
-        <div class="hidden md:flex flex items-center space-x-1">
+        <div class="hidden md:flex items-center space-x-1">
           <a href="./beranda.html"
             class="py-4 px-3 rounded-tl-2xl rounded-br-2xl text-[#899443] hover:bg-[#899443] hover:text-white">Beranda</a>
           <a href="./capresma.html"
@@ -39,7 +39,7 @@
         </div>
 
         <!-- mobile button -->
-        <div class="md:hidden flex items-center">
+        <div class="mt-4 md:hidden flex items-center">
           <button class="mobile-menu-button">
             <i class="fa-solid fa-bars w-10 h-10"></i>
           </button>
@@ -57,73 +57,84 @@
   </nav>
 
   <section class="flex flex-col justify-center">
-    <div class="w-full">
-      <!-- Card -->
-      <img class="m-0 -mt-24 z-10 bg-cover absolute" src="img/awan-depan.svg">
-      <div class="mt-56 w-full">
-        <img class="z-100 p-8 absolute" src="img/awan-belakang.svg"></img>
+    <div class="w-screen">
+      <div class="-mt-2 lg:-mt-24">
+        <img class="w-72 z-10 absolute" src="img/awan-depan.svg">
       </div>
-      <div class="mt-64">
-        <img class="object-center z-[8] absolute pt-16 w-screen" src="img/Group 1.svg"></img>
+      <div class="mt-56 w-screen">
+        <img class="z-100 absolute" src="img/awan-belakang.svg"></img>
       </div>
-      <div class="max-w-[600px] -mt-36 mx-auto z-[9] relative">
-        <div class="rounded-2xl mt-4 p-28" style="background: rgba(255, 255, 255, 0.6);">
-          <!-- Card header -->
-          <header class="text-center px-5 py-5">
-            <h1 class="text-4xl font-bold text-gray-900">Pemira KM ITERA 2022</h1>
-          </header>
-          <!-- Card body -->
+      <div class="-mt-32 mx-7 lg:mx-auto z-[9] relative lg:max-w-[600px]">
+        <div class="rounded-2xl p-4 lg:p-28" style="background: rgba(255, 255, 255, 0.6);">
+          <div class="text-center px-5 py-5">
+            <h1 class="text-lg lg:text-4xl font-bold text-gray-900">Pemira KM ITERA 2022</h1>
+          </div>
           <div class="text-center px-5 pb-6">
-            <h4 class="text-xl mb-6">
+            <h4 class="lg:text-xl mb-6">
               Pemilihan Raya Keluarga Mahasiswa Institut Teknologi Sumatera
             </h4>
             <div class="space-y-3">
               <button type="submit"
-                class="text-2xl mt-4 items-center justify-center rounded-2xl px-32 p-6 bg-[#899443] hover:opacity-75 text-white">
+                class="mt-4 p-4 px-12 items-center justify-center rounded-lg lg:px-32 lg:text-2xl bg-[#899443] hover:opacity-75 text-white">
                 Vote
               </button>
             </div>
           </div>
         </div>
       </div>
-      <img class="w-[729px] z-10 p-8 relative mx-auto lg:mt-[28rem] md:mt-48 sm:mt-20" src="img/text.svg"></img>
+      <div class="-mt-24 z-[8]">
+        <img class="object-center lg:absolute w-screen" src="img/Group 1.svg"></img>
+      </div>
+      <div class="-mt-44 z-100">
+        <img class="w-screen p-8 lg:relative mx-auto lg:mt-[28rem] md:mt-48 sm:mt-20" src="img/text.svg"></img>
+      </div>
     </div>
   </section>
 
-  <section class="-mt-[32rem] bg-white text-center items-center justify-center">
-    <div class="">
-      <h1 class="mt-72 text-4xl mb-8 font- py-60 px-48">
+  <section class="lg:bg-white text-center items-center justify-center lg:-mt-[32rem]">
+    <div class="mt-24 mx-5">
+      <h1 class="text-lg lg:text-4xl mb-8 font-bold lg:py-60 lg:px-48">
         Tentang Pemira
       </h1>
-      <p class="text-xl mb-4 px-48">
-        PEMIRA KM ITERA 2021 merupakan kegiatan pemilihan presiden KM ITERA
-        yang akan memimpin kabinet KM ITERA di periode selanjutnya.
-      </p>
-      <p class="text-xl font-semibold italic px-48">
-        "Keberhasilan pemimpin diukur dari kemampuan mereka
-        dalam menyejahterakan umat yang mereka pimpin."
-      </p>
-      <p class="text-xl mb-4 px-48">
-        - Abdurrahman Wahid
-      </p>
-
-      <p class="text-xl mb-4 px-48">
-        Mari kita wujudkan kepemimpinan yang lebih baik daripada sebelumnya
-        sebagai wujud perkembangan yang nyata dalam menjalankan kehidupan.
-      </p>
-    </div>
-    <div class="p-48 pb-0 absolute z-50 justify-center flex w-screen">
-      <h1 class="text-4xl font-bold pb-4 relative">Tutorial</h1>
-      <iframe class="rounded-xl" allow="autoplay; encrypted-media" allowfullscreen="" frameborder="0" height="315"
-        src="https://www.youtube.com/embed/8OxTG8plkz4?rel=0" width="560"></iframe><img border="0" height="0"
-        src="https://i2.ytimg.com/vi/mu1KSw28snI/0.jpg" width="0" />
-    </div>
-    <div class="mt-[90rem]">
-      <div class="flex justify-center">
-        <h1 class="mt-48 text-4xl absolute z-[11] font-bold">Timeline</h1>
+      <div class="border-2 border-[#899443] rounded-lg shadow-[#899443] shadow-md p-4">
+        <p class="lg:text-xl mb-4 lg:px-48">
+          PEMIRA KM ITERA 2021 merupakan kegiatan pemilihan presiden KM ITERA
+          yang akan memimpin kabinet KM ITERA di periode selanjutnya.
+        </p>
+        <p class="lg:text-xl font-semibold italic lg:px-48">
+          "Keberhasilan pemimpin diukur dari kemampuan mereka
+          dalam menyejahterakan umat yang mereka pimpin."
+        </p>
+        <p class="lg:text-xl mb-4 lg:px-48">
+          - Abdurrahman Wahid
+        </p>
+        <p class="lg:text-xl mb-4 lg:px-48">
+          Mari kita wujudkan kepemimpinan yang lebih baik daripada sebelumnya
+          sebagai wujud perkembangan yang nyata dalam menjalankan kehidupan.
+        </p>
       </div>
-      <!-- CARD DISINI -->
-      <img class="w-screen pt-40 object-center absolute z-[9] bg-white" src="img/Group 4.svg"></img>
+    </div>
+
+    <div class="mt-12">
+      <h1 class="mb-8 text-lg font-bold">Tutorial</h1>
+      <div class="z-[15] justify-center flex">
+        <iframe class="rounded-xl border-2 border-[#899443] shadow-lg shadow-[#899443] lg:shadow-none"
+          allow="autoplay; encrypted-media" allowfullscreen="" frameborder="0" height="auto"
+          src="https://www.youtube.com/embed/8OxTG8plkz4?rel=0" width="auto"></iframe><img border="0" height="0"
+          src="https://i2.ytimg.com/vi/mu1KSw28snI/0.jpg" width="0" />
+      </div>
+    </div>
+
+    <div class="mt-8">
+      <div class="flex justify-center">
+        <h1 class="text-lg lg:text-4xl z-[11] font-bold">Timeline</h1>
+      </div>
+    </div>
+  </section>
+
+  <section class="mt-16 z-50 lg:z-50">
+    <div class="w-screen bottom-0 lg:hidden">
+      <img src="./img/Group 4.svg" alt="">
     </div>
   </section>
 
