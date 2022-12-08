@@ -2,25 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 @font-face {
-    font-family: "Poppins";
-    src: url("../public/font/Poppins-regular.ttf");
+  font-family: "Poppins";
+  src: url("../public/font/Poppins-regular.ttf");
 }
 
 * {
-    @apply font-poppins;
+  @apply font-poppins;
 }
 
 body {
-    @apply bg-yellow-100;
+  @apply bg-yellow-100;
 }
 .active {
-    @apply bg-[#899443];
-    @apply text-white;
-    @apply rounded-tl-2xl;
-    @apply rounded-br-2xl;
-    @apply transition-all;
+  @apply bg-[#899443];
+  @apply text-white;
+  @apply rounded-tl-2xl;
+  @apply rounded-br-2xl;
+  @apply transition-all;
 }
 
-
-
-
+@layer components {
+  .bg-image {
+    @apply background-image:url("../../public/img/Group 27.svg");
+  }
+}
