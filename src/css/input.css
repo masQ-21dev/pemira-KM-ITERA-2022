@@ -24,7 +24,7 @@ body {
     @apply bg-main;
 }
 .active {
-    @apply bg-[#899443];
+    @apply bg-button-color;
     @apply text-white;
     @apply rounded-tl-2xl;
     @apply rounded-br-2xl;

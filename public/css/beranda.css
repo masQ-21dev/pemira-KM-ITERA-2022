@@ -677,12 +677,27 @@ video {
   width: 1440px;
 }
 
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 .max-w-\[600px\] {
   max-width: 600px;
 }
 
 .flex-grow {
   flex-grow: 1;
+}
+
+.rotate-12 {
+  --tw-rotate: 12deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-rotate-3 {
+  --tw-rotate: -3deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .cursor-pointer {
@@ -735,6 +750,10 @@ video {
   border-radius: 1rem;
 }
 
+.rounded-big-desktop {
+  border-radius: 30px;
+}
+
 .border {
   border-width: 1px;
 }
@@ -771,6 +790,11 @@ video {
   background-color: rgb(147 197 253 / var(--tw-bg-opacity));
 }
 
+.bg-button-color {
+  --tw-bg-opacity: 1;
+  background-color: rgb(137 148 67 / var(--tw-bg-opacity));
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -802,6 +826,10 @@ video {
 
 .p-10 {
   padding: 2.5rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
 }
 
 .px-2 {
@@ -856,6 +884,14 @@ video {
   text-align: center;
 }
 
+.font-typey {
+  font-family: typey, serif;
+}
+
+.font-typeyItalic {
+  font-family: typey-italic, italic;
+}
+
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -869,6 +905,22 @@ video {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-big-desktop {
+  font-size: 48px;
+}
+
+.text-big-mobile {
+  font-size: 28px;
+}
+
+.text-medium-mobile {
+  font-size: 24px;
+}
+
+.text-Medium-desktop {
+  font-size: 30px;
 }
 
 .font-bold {
@@ -923,7 +975,19 @@ video {
 @font-face {
   font-family: "Poppins";
 
-  src: url("../public/font/Poppins-regular.ttf");
+  src: url("../../public/font/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: typey;
+
+  src: url("../../public/font/Typey.otf");
+}
+
+@font-face {
+  font-family: typey-italic;
+
+  src: url("../../public/font/Typey_Italic.otf");
 }
 
 * {
