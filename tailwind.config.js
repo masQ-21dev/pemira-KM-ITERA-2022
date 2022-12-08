@@ -6,7 +6,10 @@ module.exports = {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
       },
+      backgroundImage: {
+        custom: "url('./src/css/Group 27.svg')",
+      },
     },
+    plugins: [],
   },
-  plugins: [],
 };

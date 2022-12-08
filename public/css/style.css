@@ -419,6 +419,10 @@ video {
   display: none;
 }
 
+.body {
+  background-image: url('./src/css/Group 27.svg');
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -547,28 +551,12 @@ video {
   }
 }
 
-.absolute {
-  position: absolute;
-}
-
 .relative {
   position: relative;
 }
 
 .top-0 {
   top: 0px;
-}
-
-.z-50 {
-  z-index: 50;
-}
-
-.z-10 {
-  z-index: 10;
-}
-
-.m-0 {
-  margin: 0px;
 }
 
 .mx-12 {
@@ -601,38 +589,6 @@ video {
   margin-left: auto;
 }
 
-.mt-56 {
-  margin-top: 14rem;
-}
-
-.mt-64 {
-  margin-top: 16rem;
-}
-
-.mt-12 {
-  margin-top: 3rem;
-}
-
-.mb-6 {
-  margin-bottom: 1.5rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
-.mt-24 {
-  margin-top: 6rem;
-}
-
 .block {
   display: block;
 }
@@ -649,8 +605,8 @@ video {
   height: 1px;
 }
 
-.h-auto {
-  height: auto;
+.h-full {
+  height: 100%;
 }
 
 .w-full {
@@ -659,30 +615,6 @@ video {
 
 .w-6 {
   width: 1.5rem;
-}
-
-.w-\[599px\] {
-  width: 599px;
-}
-
-.w-\[1195px\] {
-  width: 1195px;
-}
-
-.w-\[1800px\] {
-  width: 1800px;
-}
-
-.w-\[729px\] {
-  width: 729px;
-}
-
-.w-\[1440px\] {
-  width: 1440px;
-}
-
-.max-w-\[600px\] {
-  max-width: 600px;
 }
 
 .flex-grow {
@@ -717,12 +649,6 @@ video {
   justify-content: space-between;
 }
 
-.space-y-3 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
-}
-
 .whitespace-nowrap {
   white-space: nowrap;
 }
@@ -733,10 +659,6 @@ video {
 
 .rounded-sm {
   border-radius: 0.125rem;
-}
-
-.rounded-2xl {
-  border-radius: 1rem;
 }
 
 .border {
@@ -758,49 +680,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#899443\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(137 148 67 / var(--tw-bg-opacity));
-}
-
-.bg-yellow-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 249 195 / var(--tw-bg-opacity));
-}
-
-.bg-cover {
-  background-size: cover;
-}
-
-.object-center {
-  -o-object-position: center;
-     object-position: center;
-}
-
-.p-8 {
-  padding: 2rem;
-}
-
-.p-28 {
-  padding: 7rem;
-}
-
-.p-6 {
-  padding: 1.5rem;
-}
-
-.p-48 {
-  padding: 12rem;
-}
-
-.p-9 {
-  padding: 2.25rem;
-}
-
-.p-96 {
-  padding: 24rem;
 }
 
 .px-2 {
@@ -828,70 +707,13 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-}
-
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-}
-
-.px-32 {
-  padding-left: 8rem;
-  padding-right: 8rem;
-}
-
-.pt-16 {
-  padding-top: 4rem;
-}
-
-.pb-6 {
-  padding-bottom: 1.5rem;
-}
-
-.pb-0 {
-  padding-bottom: 0px;
-}
-
-.pt-0 {
-  padding-top: 0px;
-}
-
-.pt-10 {
-  padding-top: 2.5rem;
-}
-
-.text-center {
-  text-align: center;
-}
-
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .font-bold {
   font-weight: 700;
-}
-
-.font-semibold {
-  font-weight: 600;
-}
-
-.italic {
-  font-style: italic;
 }
 
 .leading-relaxed {
@@ -914,16 +736,6 @@ video {
 .text-\[\#899443\] {
   --tw-text-opacity: 1;
   color: rgb(137 148 67 / var(--tw-text-opacity));
-}
-
-.text-gray-900 {
-  --tw-text-opacity: 1;
-  color: rgb(17 24 39 / var(--tw-text-opacity));
-}
-
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .outline-none {
@@ -967,33 +779,9 @@ body {
   outline-offset: 2px;
 }
 
-@media (min-width: 640px) {
-  .sm\:mt-20 {
-    margin-top: 5rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:mt-48 {
-    margin-top: 12rem;
-  }
-}
-
 @media (min-width: 1024px) {
   .lg\:static {
     position: static;
-  }
-
-  .lg\:mt-80 {
-    margin-top: 20rem;
-  }
-
-  .lg\:-mt-64 {
-    margin-top: -16rem;
-  }
-
-  .lg\:-mt-72 {
-    margin-top: -18rem;
   }
 
   .lg\:block {
@@ -1020,7 +808,3 @@ body {
     justify-content: flex-start;
   }
 }
-
-
-
-

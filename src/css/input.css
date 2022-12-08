@@ -21,8 +21,6 @@ body {
   @apply transition-all;
 }
 
-@layer components {
-  .bg-image {
-    @apply background-image:url("../../public/img/Group 27.svg");
-  }
+#bg-tree {
+  @apply;
 }
