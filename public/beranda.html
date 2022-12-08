@@ -6,6 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Beranda</title>
+
+  <link rel="preload" as="image" href="./img/awan-depan.svg">
+  <link rel="preload" as="image" href="./img/awan-belakang.svg">
+  <link rel="preload" as="image" href="./img/Group 1.svg">
+  <link rel="preload" as="image" href="./img/Group 4.svg">
   <link rel="stylesheet" href="css/style.css" />
 </head>
 
@@ -59,10 +64,10 @@
         <img class="z-100 p-8 absolute" src="img/awan-belakang.svg"></img>
       </div>
       <div class="mt-64">
-        <img class="object-center z-[8] absolute pt-16" src="img/Group 1.svg"></img>
+        <img class="object-center z-[8] absolute pt-16 w-screen" src="img/Group 1.svg"></img>
       </div>
-      <div class="max-w-[600px] -mt-10 mx-auto z-[9] relative">
-        <div class="rounded-2xl mt-12 p-28" style="background: rgba(255, 255, 255, 0.6);">
+      <div class="max-w-[600px] -mt-36 mx-auto z-[9] relative">
+        <div class="rounded-2xl mt-4 p-28" style="background: rgba(255, 255, 255, 0.6);">
           <!-- Card header -->
           <header class="text-center px-5 py-5">
             <h1 class="text-4xl font-bold text-gray-900">Pemira KM ITERA 2022</h1>
@@ -81,13 +86,13 @@
           </div>
         </div>
       </div>
-      <img class="w-[729px] z-10 p-8 relative mx-auto lg:mt-80 md:mt-48 sm:mt-20" src="img/text.svg"></img>
+      <img class="w-[729px] z-10 p-8 relative mx-auto lg:mt-[28rem] md:mt-48 sm:mt-20" src="img/text.svg"></img>
     </div>
   </section>
 
-  <section class="h-auto">
-    <div class="mt-72">
-      <h1 class="mt-72 text-4xl mb-8 font-bold px-48">
+  <section class="-mt-[32rem] bg-white text-center items-center justify-center">
+    <div class="">
+      <h1 class="mt-72 text-4xl mb-8 font- py-60 px-48">
         Tentang Pemira
       </h1>
       <p class="text-xl mb-4 px-48">
@@ -107,25 +112,20 @@
         sebagai wujud perkembangan yang nyata dalam menjalankan kehidupan.
       </p>
     </div>
-    <img class="object-center z-40 relative" src="img/Group 2.svg"></img>
-    <div class="p-48 pb-0 absolute z-50">
-      <h1 class="text-4xl font-bold pb-4 relatiive">Tutorial</h1>
+    <div class="p-48 pb-0 absolute z-50 justify-center flex w-screen">
+      <h1 class="text-4xl font-bold pb-4 relative">Tutorial</h1>
       <iframe class="rounded-xl" allow="autoplay; encrypted-media" allowfullscreen="" frameborder="0" height="315"
         src="https://www.youtube.com/embed/8OxTG8plkz4?rel=0" width="560"></iframe><img border="0" height="0"
         src="https://i2.ytimg.com/vi/mu1KSw28snI/0.jpg" width="0" />
     </div>
-    <img class="-mt-40 object-center z-10 absolute" src="img/Group 3.svg"></img>
-  </section>
-
-  <section class="mt-[90rem] bg-white z-[1]">
-    <div class="flex justify-center">
-      <h1 class="mt-48 text-4xl absolute z-[11] font-bold">Timeline</h1>
+    <div class="mt-[90rem]">
+      <div class="flex justify-center">
+        <h1 class="mt-48 text-4xl absolute z-[11] font-bold">Timeline</h1>
+      </div>
+      <!-- CARD DISINI -->
+      <img class="w-screen pt-40 object-center absolute z-[9] bg-white" src="img/Group 4.svg"></img>
     </div>
-    <!-- CARD DISINI -->
-    <img class="pt-40 object-center absolute z-[9] bg-white" src="img/Group 4.svg"></img>
   </section>
-
-
 
   <script src="./js/script.js"></script>
 </body>
