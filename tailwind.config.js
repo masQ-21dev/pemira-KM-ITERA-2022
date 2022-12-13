@@ -26,10 +26,10 @@ module.exports = {
       borderRadius: {
         'big-desktop': '30px',
         'normal-decktop': '25px',
-        'small-decktop': '20 px',
-        'normal-mobile' : '15 px',
-        'big-mobile' : '25 px',
-        'small-mobile' : '8 px',
+        'small-decktop': '20px',
+        'normal-mobile' : '15px',
+        'big-mobile' : '25px',
+        'small-mobile' : '12px',
       }
     },
   },
