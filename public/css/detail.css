@@ -843,10 +843,6 @@ video {
   width: 90%;
 }
 
-.w-auto {
-  width: auto;
-}
-
 .max-w-\[600px\] {
   max-width: 600px;
 }
@@ -1310,14 +1306,6 @@ body {
     z-index: 50;
   }
 
-  .lg\:z-40 {
-    z-index: 40;
-  }
-
-  .lg\:z-0 {
-    z-index: 0;
-  }
-
   .lg\:mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -1380,10 +1368,6 @@ body {
 
   .lg\:mt-\[60rem\] {
     margin-top: 60rem;
-  }
-
-  .lg\:mt-\[68rem\] {
-    margin-top: 68rem;
   }
 
   .lg\:mt-\[64rem\] {
