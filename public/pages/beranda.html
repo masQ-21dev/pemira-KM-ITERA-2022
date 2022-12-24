@@ -8,51 +8,64 @@
     <title>Beranda</title>
     <link rel="stylesheet" href="../css/beranda.css">
 
-    <script src="https://kit.fontawesome.com/861b96d111.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="overflow-x-hidden lg:overflow-x-hidden">
-    <nav class="z-20 relative bg-white lg:bg-transparent overflow-x-hidden">
-        <div class="max-w-7xl mx-auto px-4">
-            <div class="flex justify-between">
-                <div class="flex space-x-4">
-                    <div class="mr-4">
-                        <a href="" class="flex items-center px-2">
-                            <img class="h-16 lg:h-20 mr-1" src="/public/img/logo.svg" alt="">
-                        </a>
-                    </div>
+<body>
+    <!-- navbar section end -->
+    <header class="bg-transparent sticky top-0 left-0 w-full flex items-center z-[9999]">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <!-- logo pemira -->
+                <div class="px-4">
+                    <a href="" class="flex items-center px-4">
+                        <img class="h-16 lg:h-24 mr-1" src="/public/img/logo.svg" alt="">
+                    </a>
                 </div>
+                <!-- logo pemira -->
 
-                <div class="hidden md:flex items-center space-x-1">
-                    <a href="./beranda.html"
-                        class="py-4 px-3 rounded-tl-2xl rounded-br-2xl text-[#899443] hover:bg-[#899443] hover:text-white">Beranda</a>
-                    <a href="./capresma.html"
-                        class="py-4 px-3 rounded-tl-2xl rounded-br-2xl text-[#899443] hover:bg-[#899443] hover:text-white">Capresma</a>
-                    <a href="#timeline"
-                        class="py-4 px-3 rounded-tl-2xl rounded-br-2xl text-[#899443] hover:bg-[#899443] hover:text-white">Timeline</a>
-                    <a href="./daerahpemilih.html"
-                        class="py-4 px-3 rounded-tl-2xl rounded-br-2xl text-[#899443] hover:bg-[#899443] hover:text-white">Lokasi
-                        Pemilihan</a>
-                </div>
-
-                <!-- mobile button -->
-                <div class="mt-4 md:hidden flex items-center">
-                    <button class="mobile-menu-button">
-                        <i class="fa-solid fa-bars w-10 h-10"></i>
+                <!-- navbar -->
+                <div class="flex items-center px-4">
+                    <!-- hamburger menu -->
+                    <button id="hamburger" name="hamburger" type="button"
+                        class="block absolute right-8 md:right-16 lg:hidden ">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
                     </button>
-                </div>
+                    <!-- hamburger menu -->
+                    <nav id="nav-menu"
+                        class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[200px] w-full right-8 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:dark:bg-transparent lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex space-y-4 lg:space-y-0 lg:space-x-6">
+                            <li
+                                class=" w-full lg:rounded-tl-2xl lg:rounded-br-2xl text-[#899443] hover:bg-[#899443] hover:text-white flex lg:justify-center lg:items-center">
+                                <a href="./beranda.html" class="text-base py-2 mx-6 flex ">Beranda</a>
+                            </li>
+                            <li
+                                class=" w-full lg:rounded-tl-2xl lg:rounded-br-2xl text-[#899443] hover:bg-[#899443] hover:text-white flex lg:justify-center lg:items-center">
+                                <a href="./capresma.html" class="text-base py-2 mx-6 flex ">Capresma</a>
+                            </li>
+                            <li
+                                class=" w-full lg:rounded-tl-2xl lg:rounded-br-2xl text-[#899443] hover:bg-[#899443] hover:text-white flex lg:justify-center lg:items-center hover:w-full">
+                                <a href="#timeline" class="text-base py-2 mx-6 flex ">Timeline</a>
+                            </li>
+                            <li
+                                class=" w-full lg:rounded-tl-2xl lg:rounded-br-2xl text-[#899443] hover:bg-[#899443] hover:text-white flex lg:justify-center lg:items-center">
+                                <a href="./daerahpemilih.html" class="text-base  py-2 mx-6 flex ">Lokasi
+                                    Pemilihan</a>
+                            </li>
 
+
+                        </ul>
+
+                    </nav>
+                </div>
+                <!-- navbar -->
             </div>
         </div>
-        <!-- mobile menu -->
-        <div class="mobile-menu hidden md:hidden">
-            <a href="./beranda.html" class="block py-2 px-4 text-sm">Beranda</a>
-            <a href="./capresma.html" class="block py-2 px-4 text-sm">Capresma</a>
-            <a href="#timeline" class="block py-2 px-4 text-sm">Timeline</a>
-            <a href="./daerahpemilih.html" class="block py-2 px-4 text-sm">Lokasi Pemilihan</a>
-        </div>
-    </nav>
+    </header>
+    <!-- navbar section end -->
 
+    <!-- Hero section start -->
     <section class="flex flex-col justify-center">
         <div class="w-screen">
             <div class="-mt-2 lg:-mt-24">
@@ -83,83 +96,13 @@
                 <img class="object-center lg:absolute w-screen" src="/public/img/gunung-and-ksatria.svg"></img>
             </div>
             <div class="-mt-44 lg:-mt-52 z-100">
-                <img class="lg:w-[70%] p-8 lg:relative mx-auto lg:mt-[48rem] md:mt-48 sm:mt-20" src="/public/img/text.svg"></img>
+                <img class="lg:w-[70%] p-8 lg:relative mx-auto lg:mt-[48rem] md:mt-48 sm:mt-20"
+                    src="/public/img/text.svg"></img>
             </div>
         </div>
     </section>
+    <!-- Hero section end -->
 
-    <section class="bg-white text-center items-center justify-center pt-10 -mt-20 lg:-mt-12">
-        <div class="mt-24 lg:mt-80 mb-8 mx-5 lg:mx-80">
-            <h1 class="text-lg lg:text-4xl mb-8 font-bold lg:px-16">
-                Tentang Pemira
-            </h1>
-            <div class="border-2 border-[#899443] rounded-lg shadow-[#bababa] shadow-md p-4">
-                <p class="lg:text-xl mb-4 lg:px-12 lg:pt-6">
-                    PEMIRA KM ITERA 2021 merupakan kegiatan pemilihan presiden KM ITERA
-                    yang akan memimpin kabinet KM ITERA di periode selanjutnya.
-                </p>
-                <p class="lg:text-xl font-semibold italic lg:px-12">
-                    "Keberhasilan pemimpin diukur dari kemampuan mereka
-                    dalam menyejahterakan umat yang mereka pimpin."
-                </p>
-                <p class="lg:text-xl mb-4 lg:px-12">
-                    - Abdurrahman Wahid
-                </p>
-                <p class="lg:text-xl mb-4 lg:px-12 lg:pb-6">
-                    Mari kita wujudkan kepemimpinan yang lebih baik daripada sebelumnya
-                    sebagai wujud perkembangan yang nyata dalam menjalankan kehidupan.
-                </p>
-            </div>
-        </div>
-
-        <div class="mt-16">
-            <h1 class="mb-8 text-lg lg:text-4xl font-bold">Tutorial</h1>
-            <div class="z-[15] justify-center flex">
-                <iframe class="rounded-xl lg:shadow-none"
-                    allow="autoplay; encrypted-media" allowfullscreen="" frameborder="0" height="auto"
-                    src="https://www.youtube.com/embed/8OxTG8plkz4?rel=0" width="auto"></iframe><img border="0"
-                    height="0" src="https://i2.ytimg.com/vi/mu1KSw28snI/0.jpg" width="0" />
-            </div>
-        </div>
-
-        <div class="mt-16 grid overflow-x-hidden" id="timeline">
-            <div class="flex justify-center">
-                <h1 class="text-lg lg:text-4xl z-[11] font-bold">Timeline</h1>
-            </div>
-            <div class="w-screen flex flex-wrap justify-center mt-8 lg:my-16 lg:flex-row lg:justify-center z-[11]">
-                <div class="w-32 lg:w-48 m-4 lg:m-8 text-center bg-gradient-to-br from-zinc-200 to-zinc-400 rounded-xl p-2 shadow-md shadow-zinc-500">
-                    <h1 class="font-extrabold text-2xl lg:text-4xl">22-23</h1>
-                    <h3 class="font-bold text-sm lg:text-xl">November</h3>
-                    <h5 class="font-bold text-sm lg:text-xl">2022</h5>
-                    <h5 class="text-white text-xs lg:text-xl mt-2">Open Recruitment Presma</h5>
-                </div>
-                <div class="w-32 lg:w-48 m-4 lg:m-8 text-center bg-gradient-to-br from-zinc-200 to-zinc-400 rounded-xl p-2 shadow-md shadow-zinc-500">
-                    <h1 class="font-extrabold text-2xl lg:text-4xl">22-23</h1>
-                    <h3 class="font-bold text-sm lg:text-xl">November</h3>
-                    <h5 class="font-bold text-sm lg:text-xl">2022</h5>
-                    <h5 class="text-white text-xs lg:text-xl mt-2">Open Recruitment Presma</h5>
-                </div>
-                <div class="w-32 lg:w-48 m-4 lg:m-8 text-center bg-gradient-to-br from-zinc-200 to-zinc-400 rounded-xl p-2 shadow-md shadow-zinc-500">
-                    <h1 class="font-extrabold text-2xl lg:text-4xl">22-23</h1>
-                    <h3 class="font-bold text-sm lg:text-xl">November</h3>
-                    <h5 class="font-bold text-sm lg:text-xl">2022</h5>
-                    <h5 class="text-white text-xs lg:text-xl mt-2">Open Recruitment Presma</h5>
-                </div>
-                <div class="w-32 lg:w-48 m-4 lg:m-8 text-center bg-gradient-to-br from-zinc-200 to-zinc-400 rounded-xl p-2 shadow-md shadow-zinc-500">
-                    <h1 class="font-extrabold text-2xl lg:text-4xl">22-23</h1>
-                    <h3 class="font-bold text-sm lg:text-xl">November</h3>
-                    <h5 class="font-bold text-sm lg:text-xl">2022</h5>
-                    <h5 class="text-white text-xs lg:text-xl mt-2">Open Recruitment Presma</h5>
-                </div>
-            </div>
-        </div>
-
-        <div class="mt-16 z-50 lg:z-50 overflow-x-hidden">
-            <div class="w-screen bottom-0">
-                <img src="/public/img/footer-beranda.svg" alt="">
-            </div>
-        </div>
-    </section>
 
     <script src="/public/js/script.js"></script>
 </body>
