@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: "Poppins";
+    src: url("../../public/font/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: typey;
+    src: url("../../public/font/Typey.otf");
+}
+
+@font-face {
+    font-family: typey-italic;
+    src: url("../../public/font/Typey_Italic.otf");
+}
+
+* {
+    @apply font-poppins;
+}
+
+body {
+    @apply bg-main;
+}
+.active {
+    @apply bg-[#899443];
+    @apply text-white;
+    @apply rounded-tl-2xl;
+    @apply rounded-br-2xl;
+    @apply transition-all;
+}
+
+
+
+
