@@ -1506,6 +1506,14 @@ body {
     margin-top: 64rem;
   }
 
+  .lg\:-mt-48 {
+    margin-top: -12rem;
+  }
+
+  .lg\:-mt-44 {
+    margin-top: -11rem;
+  }
+
   .lg\:block {
     display: block;
   }
