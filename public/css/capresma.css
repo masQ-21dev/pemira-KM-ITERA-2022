@@ -547,6 +547,10 @@ video {
   }
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -704,6 +708,10 @@ video {
   margin-right: 0.25rem;
 }
 
+.mt-16 {
+  margin-top: 4rem;
+}
+
 .-mt-2 {
   margin-top: -0.5rem;
 }
@@ -722,10 +730,6 @@ video {
 
 .mt-24 {
   margin-top: 6rem;
-}
-
-.mt-16 {
-  margin-top: 4rem;
 }
 
 .mt-8 {
@@ -820,12 +824,12 @@ video {
   width: 1440px;
 }
 
-.w-10 {
-  width: 2.5rem;
-}
-
 .w-screen {
   width: 100vw;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .w-72 {
@@ -1059,6 +1063,10 @@ video {
   padding: 24rem;
 }
 
+.p-1 {
+  padding: 0.25rem;
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -1127,6 +1135,10 @@ video {
 
 .pb-6 {
   padding-bottom: 1.5rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
 }
 
 .pt-10 {
@@ -1256,6 +1268,11 @@ video {
   outline-offset: 2px;
 }
 
+.drop-shadow-md {
+  --tw-drop-shadow: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 @font-face {
   font-family: "Poppins";
 
@@ -1305,11 +1322,6 @@ body {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.hover\:text-\[\#FEFFEF\]:hover {
-  --tw-text-opacity: 1;
-  color: rgb(254 255 239 / var(--tw-text-opacity));
-}
-
 .hover\:opacity-75:hover {
   opacity: 0.75;
 }
@@ -1322,6 +1334,10 @@ body {
 @media (min-width: 640px) {
   .sm\:mt-20 {
     margin-top: 5rem;
+  }
+
+  .sm\:mt-0 {
+    margin-top: 0px;
   }
 }
 

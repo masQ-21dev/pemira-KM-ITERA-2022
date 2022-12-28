@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <nav class="z-20 relative bg-white lg:bg-transparent">
+    <nav class="z-20 fixed top-0 w-screen bg-white lg:bg-transparent overflow-x-hidden drop-shadow-md">
         <div class="max-w-7xl mx-auto px-4">
             <div class="flex justify-between">
                 <div class="flex space-x-4">
@@ -28,7 +28,7 @@
                         class="py-4 px-3 rounded-tl-2xl rounded-br-2xl text-[#899443] hover:bg-[#899443] hover:text-white">Beranda</a>
                     <a href="./capresma.html"
                         class="py-4 px-3 rounded-tl-2xl rounded-br-2xl text-[#899443] hover:bg-[#899443] hover:text-white">Capresma</a>
-                    <a href="./beranda.html"
+                    <a href="#timeline"
                         class="py-4 px-3 rounded-tl-2xl rounded-br-2xl text-[#899443] hover:bg-[#899443] hover:text-white">Timeline</a>
                     <a href="./daerahpemilih.html"
                         class="py-4 px-3 rounded-tl-2xl rounded-br-2xl text-[#899443] hover:bg-[#899443] hover:text-white">Lokasi
@@ -45,15 +45,16 @@
             </div>
         </div>
         <!-- mobile menu -->
-        <div class="mobile-menu hidden md:hidden">
+        <div class="mobile-menu hidden md:hidden bg-white">
             <a href="./beranda.html" class="block py-2 px-4 text-sm">Beranda</a>
             <a href="./capresma.html" class="block py-2 px-4 text-sm">Capresma</a>
-            <a href="./beranda.html" class="block py-2 px-4 text-sm">Timeline</a>
-            <a href="./daerahpemilih.html" class="block py-2 px-4 text-sm">Lokasi Pemilihan</a>
+            <a href="#timeline" class="block py-2 px-4 text-sm">Timeline</a>
+            <a href="./daerahpemilih.html" class="block py-2 pb-4 px-4 text-sm">Lokasi Pemilihan</a>
+            <div class="p-1 bottom-0 bg-[#899443]"></div>
         </div>
     </nav>
 
-    <section class="overflow-x-hidden">
+    <section class="overflow-x-hidden mt-16 sm:mt-0">
         <div class="w-full lg:absolute flex items-center flex-col lg:justify-center lg:flex-row z-[11]">
             <a class="w-48 mx-14 text-center lg:w-[19.5rem] z-10" href="./detailcapresma.html">
                 <img src="/public/img/capresma.svg" alt="capresma" />
